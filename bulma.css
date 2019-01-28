@@ -5077,15 +5077,17 @@ a.tag:hover {
 }
 
 .title {
-  color: #363636;
-  font-size: 2rem;
+  color: #000;
+  font-size: 3.5rem;
   font-weight: 600;
   line-height: 1.125;
+  font-family: 'Bungee';
 }
 
 .title strong {
   color: inherit;
-  font-weight: inherit;
+  font-weight: bold;
+  font-family: 'Bungee';
 }
 
 .title + .highlight {
@@ -5129,6 +5131,7 @@ a.tag:hover {
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25;
+  font-family: 'Lato';
 }
 
 .subtitle strong {
@@ -6663,6 +6666,8 @@ a.navbar-item:hover, a.navbar-item.is-active,
   display: block;
   flex-grow: 0;
   flex-shrink: 0;
+  font-family: 'Bungee';
+
 }
 
 .navbar-item img {
@@ -9102,7 +9107,7 @@ label.panel-block:hover {
 }
 
 .hero.is-primary .subtitle {
-  color: rgba(255, 255, 255, 0.9);
+  color: #808080;
 }
 
 .hero.is-primary .subtitle a:not(.button),
@@ -9668,4 +9673,17 @@ label.panel-block:hover {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem;
 }
+
+.padding-top {
+  padding-top: 25px;
+}
+
+.padding-top-half {
+  padding-top: 12.5px;
+}
+
+.padding-top-2x {
+  padding-top: 50px;
+}
+
 /*# sourceMappingURL=bulma.css.map */
