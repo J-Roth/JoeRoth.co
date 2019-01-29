@@ -5079,15 +5079,15 @@ a.tag:hover {
 .title {
   color: #000;
   font-size: 3.5rem;
-  font-weight: 600;
+  font-weight: 900;
   line-height: 1.125;
-  font-family: 'Bungee';
+  font-family: 'Work Sans';
 }
 
 .title strong {
   color: inherit;
   font-weight: bold;
-  font-family: 'Bungee';
+  font-family: 'Work Sans';
 }
 
 .title + .highlight {
@@ -5131,7 +5131,7 @@ a.tag:hover {
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25;
-  font-family: 'Lato';
+  font-family: 'Work Sans';
 }
 
 .subtitle strong {
@@ -6666,7 +6666,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
   display: block;
   flex-grow: 0;
   flex-shrink: 0;
-  font-family: 'Bungee';
+  font-family: 'Work Sans';
 
 }
 
